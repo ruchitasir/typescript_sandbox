@@ -1,0 +1,3 @@
+tsc type_fun.ts 
+
+node type_fun.js
