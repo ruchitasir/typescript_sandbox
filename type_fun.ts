@@ -73,3 +73,7 @@ const isGoodDog = (dog:DogObject):boolean=>{
 }
 
 isGoodDog(oneGoodBoy) 
+
+
+let myStringNumTuple: [string, number] = ["Hello", 42];
+myStringNumTuple =  ["Hello",42] // ☠️ will throw an error at compile time
